@@ -11,5 +11,5 @@
 ## Estrutura do Projeto
 A estrutura do projeto segue o padrão MVC para melhor organização:
 
-<pre> ```php echo "Olá, mundo!"; ``` </pre>
+<pre> ```<?php php echo "Olá, mundo!"; ``` </pre>
 
