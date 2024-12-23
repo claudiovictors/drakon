@@ -1,0 +1,20 @@
+{
+    "name": "drakon-framework/drakon",
+    "description": "DRAKON: Experimente a simplicidade de construir aplicações web robustas com rotas, templates e views intuitivas.",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Drakon\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Cláudio Victor",
+            "email": "barrosclaudio147@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : ">=7.0.0"
+    }
+}
