@@ -11,5 +11,15 @@
 ## Estrutura do Projeto
 A estrutura do projeto segue o padrão MVC para melhor organização:
 
-<pre> ```<?php php echo "Olá, mundo!"; ``` </pre>
+```php
+<?php
 
+use Drakon\Core\Router;
+
+Router::get('/', function() {
+    return 'Bem-vindo ao Drakon!';
+});
+
+Router::get('/about', [AboutController::class, 'index']);
+
+Router::post('/login', [AuthController::class, 'login']);
